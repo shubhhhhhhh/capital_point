@@ -4,7 +4,7 @@ export default function MainContext ({children}){
     
     return(
         <>
-            <Context.Provider>
+            <Context.Provider value={{a:1}}>
                 {children}    
             </Context.Provider>    
         </>
