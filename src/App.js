@@ -13,8 +13,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' element={<Signup />} />
-          <Route path='dashboard' element={<Dashboard />} />
+          <Route path='signup' element={<Signup />} />
+          <Route path='/' element={<Dashboard />} />
         </Routes>
       </Router>
     </MainContext>
