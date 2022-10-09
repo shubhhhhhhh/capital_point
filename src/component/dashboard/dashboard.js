@@ -5,24 +5,17 @@ import LeftComp from "../leftcomp"
 export default function Dashboard() {
     return (
         <>
-            <Container fluid="true" style={{ padding: " 0rem 3rem" }}>
+            <Container fluid="true" style={{ padding: " 0.5rem 3rem" }}>
                 <Row>
-                    {/* <Col md={2} style={{backgroundColor:"#dfffef",padding:"0rem"}}><LeftComp /></Col>
-                    <Col md={6} style={{padding:"0rem"}}>
-                        <div style={{backgroundColor:"red",color:"white" }}>
-                            <h1>hey</h1>
-                        </div>
-                    </Col>
-                    <Col md={4} style={{padding:"0rem 0rem 0rem 5rem"}}><RightComp /></Col> */}
                     <LeftComp />
-                    {/* <div style={{width:"5px"}}></div> */}
-                    <div style={{ backgroundColor: "red", color: "white", display:"inline-block" , width:"45rem" }}>
-                        <h1>hey</h1>
+                    <div style={{ backgroundColor: "red", color: "white", display:"inline-block" , width:"46.3rem",margin:"0rem 0.5rem 0rem 0.5rem" }}>
+                        <div>
+                            <h1>changeables</h1>
+                        </div>
                     </div>
                     <RightComp />
                 </Row>
             </Container>
-
         </>
     )
 }
